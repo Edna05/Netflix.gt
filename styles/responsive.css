@@ -1,0 +1,80 @@
+/* Styles généraux */
+
+/* Pour les écrans plus petits*/
+@media (max-width: 768px) {
+  /* Styles pour le header */
+  .header__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+  
+  .header__right {
+      margin-top: 10px;
+      display: block;
+  }
+  
+  /* Styles pour la section principale */
+  .main__container {
+      text-align: center;
+  }
+  
+  .main__title {
+      font-size: 28px;
+  }
+  
+  .main__description {
+      font-size: 16px;
+  }
+  
+  .main__question {
+      font-size: 16px;
+  }
+  
+  .main__button__start {
+      text-align: center;
+  }
+  
+  /* Styles pour les sections page__1 à page__4 */
+  .page__1, .page__2, .page__3, .page__4 {
+      flex-direction: column;
+  }
+  
+  .page__1 .page__1__image {
+      order: -1; /* Place l'image au-dessus du texte */
+  }
+  
+  .page__1 .page__1__img img,
+  .page__2 .page__2__img img,
+  .page__4 .page__4__image img {
+      width: 100%; /* Ajuste la largeur de l'image */
+  }
+  
+  .video {
+      margin-top: 20px;/* Espacement pour la vidéo */
+  }
+  
+  .page__3 .page__3__title {
+      text-align: center;
+  }
+  
+  /* Styles pour la section page__5 (FAQ) */
+  .container__faq li label::after {
+      right: 10px; /* Ajuste la position de l'icône "+" */
+  }
+  
+  .page__5-button__bottom {
+      text-align: center;
+  }
+  
+  .page__5__question {
+      font-size: 16px;
+      margin-bottom: 20px;
+  }
+}
+
+/* Pour les écrans plus grands */
+@media (min-width: 769px) {
+  /* Ajoutez ici des ajustements spécifiques si nécessaire */
+}

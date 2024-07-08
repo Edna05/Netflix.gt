@@ -1,0 +1,301 @@
+section{
+     max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.page__1 {
+
+    border-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+}
+
+.page__1__text {
+
+    border-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    max-width: 650px;
+    color: white;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 16px;
+    color: white;
+}
+
+.page__1__image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.page__1__img {
+    position: relative;
+    z-index: 5;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.video {
+    position: absolute;
+}
+.page__2 {
+    border-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+}
+
+.page__2__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page__2__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page__2__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24 px;
+    color: white;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 16px;
+}
+
+
+.page__3 {
+    border-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+    height: 398px;
+}
+
+.page__3__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24 px;
+    color: white;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 16px;
+}
+
+
+
+.page__4 {
+    border-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 5px;
+}
+
+.page__4__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page__4__img {
+    position: relative;
+    max-width: 100%;
+}
+
+.page__4__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24 px;
+    color: white;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 16px;
+}
+
+.page__5 {
+    list-style: none;
+    padding: 0;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.container__faq {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    
+
+}
+
+.container__faq li {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.container__faq li label {
+    display: block;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500px;
+    cursor: pointer;
+    background: #303030;
+    position: relative;
+    margin-bottom: 2px;
+    
+    
+
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+.container__faq .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: transform 0.5s;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.container__faq input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.container__faq input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.page__5-button__bottom {
+    max-width: 600px;
+    margin: 20px auto 60px;
+
+}
+
+.page__5__question {
+    font-size: 13px;
+}
+
+.faq__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1554px;
+    height: 84px;
+    padding: 24px;
+    background-color: gray;
+
+
+}
+
+.page__5__button__mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input {
+
+    font-size: 20px;
+    width: 364px;
+    height: 56px;
+    background-color: rgb(85, 84, 84);
+    color: #fff;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+.page__5__button__start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.start__5 {
+   
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}

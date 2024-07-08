@@ -1,0 +1,44 @@
+.page__footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.page__footer__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.page__footer__list .list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.page__footer__list .list:last-child {
+    margin-right: 0;
+}
+
+.page__footer__list a {
+    color: white;
+    text-decoration: none;
+}
+
+.page__footer__language {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.page__footer__language button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.page__footer__bottom {
+    text-align: center;
+    margin-top: 10px;
+}

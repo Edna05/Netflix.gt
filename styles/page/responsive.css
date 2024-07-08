@@ -1,0 +1,34 @@
+
+ /*pour les écrans larges */
+@media screen and (min-width: 768px) {
+    p {
+      font-size: 1.2em;
+    }
+  }
+  
+  /* Styles pour les tablettes et smartphones */
+  @media screen and (max-width: 767px) {
+    p {
+      font-size: 1em;
+    }
+  }
+
+/* Media Query for tablets and larger */
+@media (min-width: 767px) {
+    /* Adjustments for .page__1, .page__2, .page__3, .page__4 */
+    .page__1, .page__2, .page__3, .page__4 {
+        margin: 10px;
+    }
+    
+    /* Adjustments for .container__faq */
+    .container__faq {
+        margin: 30px auto;
+        width: 90%;
+        max-width: 800px;
+    }
+    
+    /* Adjust font sizes */
+    .page__1 .h1 {
+        font-size: 64px;
+    }
+}
